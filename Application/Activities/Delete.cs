@@ -37,7 +37,7 @@ namespace Application.Activities
 
                 if (success) return Unit.Value;
 
-                throw new Exception("Problem saving changes. --- [CREATE]");
+                throw new Exception("Problem saving changes.");
             }
         }
     }
